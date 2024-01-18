@@ -8,39 +8,165 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <style>
         .font-bebas{
             font-family: 'Bebas Neue', sans-serif;
+        }
+        .roboto{
+            font-family: 'Roboto', sans-serif;
         }
     </style>
 </head>
 <body>
     <!-- header section start -->
-    <header class="bg-[#FFFBF0] px-5">
-        <!-- nav section start -->
-        <nav class="flex justify-between items-center max-w-[1170px] m-auto pt-[40px]">
-            <div><img class="w-[291px]" src="icons/logo.png" alt="logo"></div>
-            <div class="flex gap-[57px]">
+    <header class="bg-[#FFFBF0]">
+        <nav class="flex justify-between pt-[28px] px-[16px] max-w-[630px] m-auto md:max-w-[758px] lg:max-w-[1014px]">
+            <div><img class="w-[193px]" src="icons/logo.png" alt="logo"></div>
+            <div><img class="md:hidden" src="icons/menu.svg" alt="menu"></div>
+            <div class="hidden md:block space-x-5">
                 <a href="#">Home</a>
                 <a href="#">Product</a>
-                <a href="#">About Us</a>
-                <a href="#">Contact Us</a>
+                <a href="#">About us</a>
+                <a href="#">Contact</a>
             </div>
         </nav>
-        <!-- nav section end -->
-        <!-- banner section start -->
-        <section class="items-center max-w-[1170px] m-auto mt-[40px] flex justify-between pb-[130px]">
-            <div class="w-[616px]">
-                <h1 class="text-[#363958] text-7xl font-[400] font-bebas "><span class="text-[#FABE4C] text-[80px] font-[400]">Be the Penguins</span> of Winter</h1>
-                <p class="w-[357px] text-[#3E3E3E] font-[16px] mb-[8px] mt-[8px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <button class="px-[33px] py-[18px] bg-gradient-to-t from-[#A4BC46] to-[#85A019] text-white font-[500] uppercase rounded-[10px]">Buy now</button>
+        <section class="banner px-[16px] max-w-[630px] m-auto sm:flex md:max-w-[758px] lg:max-w-[1014px]">
+            <div class="">
+                <h1 class="max-w-[312px] text-[60px] font-bebas leading-[70px] mt-[55px]"><span class="text-[#FABE4C]">Be the Penguins</span> of Winter</h1>
+                <p class="max-w-[295px] text-[#3E3E3E] roboto">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <button class="bg-gradient-to-t from-[#85A019] to-[#A4BC46] py-[18px] px-[33px] roboto text-white font-[400] uppercase rounded-[10px] mt-[24px]">Buy Now</button>
             </div>
-            <div>
+            <div class="lg:flex lg:items-center pb-[44px] max-w-[350px] m-auto sm:w-[250px] md:w-[400px] lg:ml-[330px]">
                 <img src="images/model.png" alt="model">
             </div>
         </section>
-        <!-- banner section end -->
     </header>
     <!-- header section end -->
+    <!-- main section start -->
+    <main>
+        <!-- woman jacket section -->
+        <section class="px-[16px] max-w-[630px] m-auto md:max-w-[758px] lg:max-w-[1014px]">
+            <h1 class="uppercase text-[36px] font-bebas text-center pt-[50px]">Woman Jacket</h1>
+            <div>
+                <div class="sm:grid sm:grid-cols-2 gap-x-5 lg:grid-cols-3">
+                    <div class="p-[20px] rounded-[20px] shadow-lg sm:mt-5">
+                        <div class="bg-[#F1F1F1] py-[20px] px-[50px] rounded-[20px] mb-[17px]"><img src="images/jacket-1.png" alt="dress"></div>
+                        <h1 class="roboto font-[700] text-[24px] text-[#363958]">Yellow Coat Jacket</h1>
+                        <p class="font-[400] text-[16px] roboto mt-[13px] mb-[12px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div class="flex justify-between items-center">
+                            <h1 class="roboto text-[36px] text-[#FABE4C] font-[900]">$ 234</h1>
+                            <button class="bg-gradient-to-t from-[#85A019] to-[#A4BC46] py-[18px] px-[33px] roboto text-white font-[400] uppercase rounded-[10px]">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="p-[20px] rounded-[20px] shadow-lg mt-[24px]">
+                        <div class="bg-[#F1F1F1] py-[20px] px-[50px] rounded-[20px] mb-[17px]"><img src="images/jacket-1.png" alt="dress"></div>
+                        <h1 class="roboto font-[700] text-[24px] text-[#363958]">Yellow Coat Jacket</h1>
+                        <p class="font-[400] text-[16px] roboto mt-[13px] mb-[12px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div class="flex justify-between items-center">
+                            <h1 class="roboto text-[36px] text-[#FABE4C] font-[900]">$ 234</h1>
+                            <button class="bg-gradient-to-t from-[#85A019] to-[#A4BC46] py-[18px] px-[33px] roboto text-white font-[400] uppercase rounded-[10px]">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="p-[20px] rounded-[20px] shadow-lg mt-[24px]">
+                        <div class="bg-[#F1F1F1] py-[20px] px-[50px] rounded-[20px] mb-[17px]"><img src="images/jacket-1.png" alt="dress"></div>
+                        <h1 class="roboto font-[700] text-[24px] text-[#363958]">Yellow Coat Jacket</h1>
+                        <p class="font-[400] text-[16px] roboto mt-[13px] mb-[12px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div class="flex justify-between items-center">
+                            <h1 class="roboto text-[36px] text-[#FABE4C] font-[900]">$ 234</h1>
+                            <button class="bg-gradient-to-t from-[#85A019] to-[#A4BC46] py-[18px] px-[33px] roboto text-white font-[400] uppercase rounded-[10px]">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="p-[20px] rounded-[20px] shadow-lg mt-[24px]">
+                        <div class="bg-[#F1F1F1] py-[20px] px-[50px] rounded-[20px] mb-[17px]"><img src="images/jacket-1.png" alt="dress"></div>
+                        <h1 class="roboto font-[700] text-[24px] text-[#363958]">Yellow Coat Jacket</h1>
+                        <p class="font-[400] text-[16px] roboto mt-[13px] mb-[12px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div class="flex justify-between items-center">
+                            <h1 class="roboto text-[36px] text-[#FABE4C] font-[900]">$ 234</h1>
+                            <button class="bg-gradient-to-t from-[#85A019] to-[#A4BC46] py-[18px] px-[33px] roboto text-white font-[400] uppercase rounded-[10px]">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- man jacket section -->
+        <section class="px-[16px] max-w-[630px] m-auto md:max-w-[758px] lg:max-w-[1014px]">
+            <h1 class="uppercase text-[36px] font-bebas text-center pt-[50px]">Woman Jacket</h1>
+            <div class="">
+                <div class="sm:grid sm:grid-cols-2 lg:grid-cols-3 sm:gap-x-5 md:max-w-[758px] lg:max-w-[1014px]">
+                    <div class="p-[20px] rounded-[20px] shadow-lg sm:mt-5">
+                        <div class="bg-[#F1F1F1] py-[20px] px-[50px] rounded-[20px] mb-[17px]"><img src="images/jacket-1.png" alt="dress"></div>
+                        <h1 class="roboto font-[700] text-[24px] text-[#363958]">Yellow Coat Jacket</h1>
+                        <p class="font-[400] text-[16px] roboto mt-[13px] mb-[12px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div class="flex justify-between items-center">
+                            <h1 class="roboto text-[36px] text-[#FABE4C] font-[900]">$ 234</h1>
+                            <button class="bg-gradient-to-t from-[#85A019] to-[#A4BC46] py-[18px] px-[33px] roboto text-white font-[400] uppercase rounded-[10px]">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="p-[20px] rounded-[20px] shadow-lg mt-[24px]">
+                        <div class="bg-[#F1F1F1] py-[20px] px-[50px] rounded-[20px] mb-[17px]"><img src="images/jacket-1.png" alt="dress"></div>
+                        <h1 class="roboto font-[700] text-[24px] text-[#363958]">Yellow Coat Jacket</h1>
+                        <p class="font-[400] text-[16px] roboto mt-[13px] mb-[12px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div class="flex justify-between items-center">
+                            <h1 class="roboto text-[36px] text-[#FABE4C] font-[900]">$ 234</h1>
+                            <button class="bg-gradient-to-t from-[#85A019] to-[#A4BC46] py-[18px] px-[33px] roboto text-white font-[400] uppercase rounded-[10px]">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="p-[20px] rounded-[20px] shadow-lg mt-[24px]">
+                        <div class="bg-[#F1F1F1] py-[20px] px-[50px] rounded-[20px] mb-[17px]"><img src="images/jacket-1.png" alt="dress"></div>
+                        <h1 class="roboto font-[700] text-[24px] text-[#363958]">Yellow Coat Jacket</h1>
+                        <p class="font-[400] text-[16px] roboto mt-[13px] mb-[12px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div class="flex justify-between items-center">
+                            <h1 class="roboto text-[36px] text-[#FABE4C] font-[900]">$ 234</h1>
+                            <button class="bg-gradient-to-t from-[#85A019] to-[#A4BC46] py-[18px] px-[33px] roboto text-white font-[400] uppercase rounded-[10px]">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="p-[20px] rounded-[20px] shadow-lg mt-[24px]">
+                        <div class="bg-[#F1F1F1] py-[20px] px-[50px] rounded-[20px] mb-[17px]"><img src="images/jacket-1.png" alt="dress"></div>
+                        <h1 class="roboto font-[700] text-[24px] text-[#363958]">Yellow Coat Jacket</h1>
+                        <p class="font-[400] text-[16px] roboto mt-[13px] mb-[12px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div class="flex justify-between items-center">
+                            <h1 class="roboto text-[36px] text-[#FABE4C] font-[900]">$ 234</h1>
+                            <button class="bg-gradient-to-t from-[#85A019] to-[#A4BC46] py-[18px] px-[33px] roboto text-white font-[400] uppercase rounded-[10px]">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- service section start -->
+        <section class="mt-20 mb-5 px-[16px] max-w-[630px] m-auto md:max-w-[758px] lg:max-w-[1014px]">
+            <div>
+                <div><img src="images/shopping.png" alt="service image"></div>
+            </div>
+            <div class="sm:grid sm:grid-cols-2 gap-x-5">
+                <div class="py-[25px] px-[33px] rounded-[20px] shadow-md mt-[50px]">
+                    <div class="w-[78px] h-[82px] m-auto">
+                        <img src="icons/house.png" alt="card-icon">
+                    </div>
+                    <h1 class="text-[24px] font-[700] text-[#363958] robote text-center">Find the Perfect Fit</h1>
+                    <p class="text[16px] font-400 text-[#3E3E3E] text-center">Everybody is different, which is why we offer styles for every body.</p>
+                </div>
+                <div class="py-[25px] px-[33px] rounded-[20px] shadow-md mt-[50px]">
+                    <div class="w-[78px] h-[82px] m-auto">
+                        <img src="icons/house.png" alt="card-icon">
+                    </div>
+                    <h1 class="text-[24px] font-[700] text-[#363958] robote text-center">Find the Perfect Fit</h1>
+                    <p class="text[16px] font-400 text-[#3E3E3E] text-center">Everybody is different, which is why we offer styles for every body.</p>
+                </div>
+                <div class="py-[25px] px-[33px] rounded-[20px] shadow-md mt-[50px]">
+                    <div class="w-[78px] h-[82px] m-auto">
+                        <img src="icons/house.png" alt="card-icon">
+                    </div>
+                    <h1 class="text-[24px] font-[700] text-[#363958] robote text-center">Find the Perfect Fit</h1>
+                    <p class="text[16px] font-400 text-[#3E3E3E] text-center">Everybody is different, which is why we offer styles for every body.</p>
+                </div>
+            </div>
+        </section>
+        <!-- service section end -->
+    </main>
+    <!-- main section end -->
 </body>
 </html>
